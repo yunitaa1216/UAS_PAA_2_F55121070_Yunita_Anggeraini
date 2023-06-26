@@ -3,6 +3,7 @@
 A. Analisis Algoritma Bubble Sort dan Insertion Sort
 
 1. Bubble Sort:
+
 Worst Case (Kasus Terburuk):
 Pada kasus terburuk, Bubble Sort akan memiliki kompleksitas waktu O(n^2), di mana 'n' adalah jumlah elemen yang diurutkan. Kasus terburuk terjadi ketika elemen-elemen terurut secara terbalik, sehingga setiap elemen harus bergeser ke posisi akhirnya melalui pertukaran berulang.
 
@@ -13,6 +14,7 @@ Average Case (Kasus Rata-rata):
 Pada kasus rata-rata, Bubble Sort memiliki kompleksitas waktu O(n^2), di mana 'n' adalah jumlah elemen yang diurutkan. Bubble Sort akan melakukan pertukaran secara berulang untuk setiap pasangan elemen yang tidak berurutan. Jumlah rata-rata pertukaran tergantung pada distribusi elemen-elemen dalam data yang diurutkan.
 
 2. Insertion Sort:
+
 Worst Case (Kasus Terburuk):
 Pada kasus terburuk, Insertion Sort memiliki kompleksitas waktu O(n^2), di mana 'n' adalah jumlah elemen yang diurutkan. Kasus terburuk terjadi ketika elemen-elemen terurut secara terbalik, dan setiap elemen harus dipindahkan ke posisi awalnya melalui pergeseran elemen lain.
 
@@ -25,6 +27,7 @@ Pada kasus rata-rata, Insertion Sort memiliki kompleksitas waktu O(n^2), di mana
 B. Analisis Algoritma Traveling Salesman Problem(TSP) dan Djikstra
 
 1. Algoritma TSP (Traveling Salesman Problem):
+
 Worst Case (Kasus Terburuk):
 Pada TSP, tidak ada kasus terburuk yang tetap ada. Algoritma TSP memiliki kompleksitas waktu eksponensial O(n!), di mana 'n' adalah jumlah node atau kota yang harus dikunjungi. Kasus terburuk terjadi ketika ada banyak node dan permutasi semua kemungkinan jalur harus diuji untuk menemukan jalur terpendek.
 
@@ -35,6 +38,7 @@ Average Case (Kasus Rata-rata):
 Tidak ada analisis rata-rata yang tepat untuk algoritma TSP karena kompleksitas waktu algoritma ini sangat tergantung pada ukuran masalah. Namun, pada umumnya, kompleksitas waktu algoritma TSP cenderung eksponensial O(n!), yang berarti semakin banyak node yang harus dikunjungi, semakin tinggi kompleksitas waktu yang diperlukan.
 
 2. Algoritma Dijkstra:
+
 Worst Case (Kasus Terburuk):
 Pada Dijkstra, kasus terburuk terjadi ketika setiap simpul atau node harus diproses dan setiap sisi atau edge dalam graf harus dijelajahi. Dalam kasus ini, kompleksitas waktu algoritma Dijkstra adalah O((V + E) log V), di mana V adalah jumlah simpul dan E adalah jumlah sisi dalam graf.
 
